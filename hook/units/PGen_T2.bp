@@ -1,0 +1,110 @@
+# PGen T2 Aeon
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = "uab1201",
+    Display = {
+        Abilities = {
+            '<LOC ability_upgradable>Upgradeable',
+        },
+    },
+    Economy = {
+        BuildRate = 12,
+        BuildableCategory = {
+            'uapowerup',
+        },
+        RebuildBonusIds = {
+            'uab1201',
+            'uapowerup',
+        },
+    },
+    General = {
+		UpgradesTo = 'uapowerup',
+        CommandCaps = {
+            RULEUCC_Pause = true,
+        },
+    },
+}
+
+# PGen T2 UEF
+UnitBlueprint {
+    Merge = true,
+	BlueprintId = "ueb1201",
+	
+    Display = {
+        Abilities = {
+            '<LOC ability_upgradable>Upgradeable',
+        },
+    },
+    Economy = {
+        BuildRate = 12,
+        BuildableCategory = {
+            'uepowerup',
+        },
+        RebuildBonusIds = {
+            "ueb1201",
+            'uepowerup',
+        },
+    },
+    General = {
+		UpgradesTo = 'uepowerup',
+        CommandCaps = {
+            RULEUCC_Pause = true,
+        },
+    },
+}
+
+# PGen T2 Cybran
+UnitBlueprint {
+    Merge = true,
+	BlueprintId = "urb1201",
+	
+    Display = {
+        Abilities = {
+            '<LOC ability_upgradable>Upgradeable',
+        },
+    },
+    Economy = {
+        BuildRate = 12,
+        BuildableCategory = {
+            'urpowerup',
+        },
+        RebuildBonusIds = {
+            'urb1201',
+            'urpowerup',
+        },
+    },
+    General = {
+		UpgradesTo = 'urpowerup',
+        CommandCaps = {
+            RULEUCC_Pause = true,
+        },
+    },
+}
+
+# PGen T2 Seraphim
+UnitBlueprint {
+    Merge = true,
+	BlueprintId = "xsb1201",
+	
+    Display = {
+        Abilities = {
+            '<LOC ability_upgradable>Upgradeable',
+        },
+    },
+    Economy = {
+        BuildRate = 12,
+        BuildableCategory = {
+            'xspowerup',
+        },
+        RebuildBonusIds = {
+            'xsb1201',
+            'xspowerup',
+        },
+    },
+    General = {
+		UpgradesTo = 'xspowerup',
+        CommandCaps = {
+            RULEUCC_Pause = true,
+        },
+    },
+}

@@ -1,0 +1,59 @@
+# SMD Aeon
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = "uab4302",
+
+	General = {
+		Icon = 'amph',
+	},
+	Physics = {
+		BuildOnLayerCaps = {
+			LAYER_Seabed = true,
+		},
+	},
+}
+
+# SMD UEF
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = "ueb4302",
+
+	General = {
+		Icon = 'amph',
+	},
+	Physics = {
+		BuildOnLayerCaps = {
+			LAYER_Seabed = true,
+		},
+	},
+}
+
+# SMD Cybran
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = "urb4302",
+
+	General = {
+		Icon = 'amph',
+	},
+	Physics = {
+		BuildOnLayerCaps = {
+			LAYER_Seabed = true,
+		},
+	},
+}
+
+# SMD Seraphim
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = "xsb4302",
+
+	General = {
+		Icon = 'amph',
+	},
+	Physics = {
+		BuildOnLayerCaps = {
+			LAYER_Seabed = true,
+		},
+	},
+}

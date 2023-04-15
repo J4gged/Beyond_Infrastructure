@@ -1,0 +1,99 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "urb4202",
+    Economy = {
+	      BuildRate = 12,
+ 	      BuildableCategory = {
+            'urb4204',
+        },
+    },
+    General = {
+      CommandCaps = {
+          RULEUCC_Pause = true,
+          RULEUCC_Stop = true,
+      },
+      UpgradesFrom = 'srb4102',
+      UpgradesFromBase = 'srb4102',
+      UpgradesTo = 'urb4204',
+    },
+}
+
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "urb4204",
+    Economy = {
+	      BuildRate = 12,
+ 	      BuildableCategory = {
+            'urb4205',
+        },
+    },
+    General = {
+      CommandCaps = {
+          RULEUCC_Pause = true,
+          RULEUCC_Stop = true,
+      },
+      UpgradesFrom = 'urb4202',
+      UpgradesFromBase = 'srb4102',
+      UpgradesTo = 'urb4205',
+    },
+}
+
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "urb4205",
+    Economy = {
+	      BuildRate = 12,
+ 	      BuildableCategory = {
+            'urb4206',
+        },
+    },
+    General = {
+      CommandCaps = {
+          RULEUCC_Pause = true,
+          RULEUCC_Stop = true,
+      },
+      UpgradesFrom = 'urb4204',
+      UpgradesFromBase = 'srb4102',
+      UpgradesTo = 'urb4206',
+    },
+}
+
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "urb4206",
+    Economy = {
+	      BuildRate = 12,
+ 	      BuildableCategory = {
+            'urb4207',
+        },
+    },
+    General = {
+      CommandCaps = {
+          RULEUCC_Pause = true,
+          RULEUCC_Stop = true,
+      },
+      UpgradesFrom = 'urb4205',
+      UpgradesFromBase = 'srb4102',
+      UpgradesTo = 'urb4207',
+    },
+}
+
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "urb4207",
+    Economy = {
+	      BuildRate = 12,
+ 	      BuildableCategory = {
+            'frb4401',
+        },
+    },
+    General = {
+      CommandCaps = {
+          RULEUCC_Pause = true,
+          RULEUCC_Stop = true,
+      },
+      UpgradesFrom = 'urb4206',
+      UpgradesFromBase = 'srb4102',
+      UpgradesTo = 'frb4401',
+    },
+}

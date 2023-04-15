@@ -1,0 +1,111 @@
+# PGen T3 Aeon
+UnitBlueprint {
+	Merge = true,
+	BlueprintId = "uab1301",
+	
+    Display = {
+        Abilities = {
+            '<LOC ability_upgradable>Upgradeable',
+        },
+    },
+    Economy = {
+        BuildRate = 25,
+        BuildableCategory = {
+            'uab1401',
+        },
+        RebuildBonusIds = {
+            'uab1301',
+            'uab1401',
+        },
+    },
+    General = {
+		UpgradesTo = 'uab1401',
+        CommandCaps = {
+            RULEUCC_Pause = true,
+        },
+    },
+}
+
+# PGen T3 UEF
+UnitBlueprint {
+    Merge = true,
+	BlueprintId = "ueb1301",
+	
+    Display = {
+        Abilities = {
+            '<LOC ability_upgradable>Upgradeable',
+        },
+    },
+    Economy = {
+        BuildRate = 25,
+        BuildableCategory = {
+            'ueb1401',
+        },
+        RebuildBonusIds = {
+            'ueb1301',
+            'ueb1401',
+        },
+    },
+    General = {
+		UpgradesTo = 'ueb1401',
+        CommandCaps = {
+            RULEUCC_Pause = true,
+        },
+    },
+}
+
+# PGen T3 Cybran
+UnitBlueprint {
+    Merge = true,
+	BlueprintId = "urb1301",
+	
+    Display = {
+        Abilities = {
+            '<LOC ability_upgradable>Upgradeable',
+        },
+    },
+    Economy = {
+        BuildRate = 25,
+        BuildableCategory = {
+            'urb1401',
+        },
+        RebuildBonusIds = {
+            'urb1301',
+            'urb1401',
+        },
+    },
+    General = {
+		UpgradesTo = 'urb1401',
+        CommandCaps = {
+            RULEUCC_Pause = true,
+        },
+    },
+}
+
+# PGen T3 Seraphim
+UnitBlueprint {
+    Merge = true,
+	BlueprintId = "xsb1301",
+	
+    Display = {
+        Abilities = {
+            '<LOC ability_upgradable>Upgradeable',
+        },
+    },
+    Economy = {
+        BuildRate = 25,
+        BuildableCategory = {
+            'xsb1401',
+        },
+        RebuildBonusIds = {
+            'xsb1301',
+            'xsb1401',
+        },
+    },
+    General = {
+		UpgradesTo = 'xsb1401',
+        CommandCaps = {
+            RULEUCC_Pause = true,
+        },
+    },
+}

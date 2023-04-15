@@ -1,0 +1,39 @@
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "ueb4202",
+    Economy = {
+	      BuildRate = 12,
+ 	      BuildableCategory = {
+            'UEB4301',
+        },
+    },
+    General = {
+      CommandCaps = {
+          RULEUCC_Pause = true,
+          RULEUCC_Stop = true,
+      },
+      UpgradesFrom = 'seb4102',
+      UpgradesFromBase = 'seb4102',
+      UpgradesTo = 'UEB4301',
+    },
+}
+
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "UEB4301",
+    Economy = {
+	      BuildRate = 12,
+ 	      BuildableCategory = {
+            'feb4401',
+        },
+    },
+    General = {
+      CommandCaps = {
+          RULEUCC_Pause = true,
+          RULEUCC_Stop = true,
+      },
+      UpgradesFrom = 'ueb4202',
+      UpgradesFromBase = 'seb4102',
+      UpgradesTo = 'feb4401',
+    },
+}

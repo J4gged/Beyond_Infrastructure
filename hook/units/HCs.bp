@@ -1,0 +1,130 @@
+# HC Aeon
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "uab1102",
+
+    Categories = {
+        'SHOWQUEUE',
+    },
+    Display = {
+        Abilities = {
+            '<LOC ability_upgradable>Upgradeable',
+        },
+    },
+    Economy = {
+        BuildRate = 12,
+        BuildableCategory = {
+            'bab1202',
+        },
+        RebuildBonusIds = {
+            'uab1102',
+            'bab1202',
+            'bab1302',
+            'brobt1peri',
+        },
+    },
+    General = {
+        UpgradesTo = 'bab1202',
+        CommandCaps = {
+            RULEUCC_Pause = true,
+        },
+    },
+}
+
+# HC UEF
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "ueb1102",
+    Categories = {
+        'SHOWQUEUE',
+    },
+    Display = {
+        Abilities = {
+            '<LOC ability_upgradable>Upgradeable',
+        },
+    },
+    Economy = {
+        BuildRate = 12,
+        BuildableCategory = {
+            'beb1202',
+        },
+        RebuildBonusIds = {
+            'ueb1102',
+            'beb1202',
+            'beb1302',
+            'brnbt1peri',
+        },
+    },
+    General = {
+        UpgradesTo = 'beb1202',
+        CommandCaps = {
+            RULEUCC_Pause = true,
+        },
+    },
+}
+
+# HC Cybran
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "urb1102",
+
+    Categories = {
+        'SHOWQUEUE',
+    },
+    Display = {
+        Abilities = {
+            '<LOC ability_upgradable>Upgradeable',
+        },
+    },
+    Economy = {
+        BuildRate = 12,
+        BuildableCategory = {
+            'brb1202',
+        },
+        RebuildBonusIds = {
+            'urb1102',
+            'brb1202',
+            'brb1302',
+            'brmbt1peri',
+        },
+    },
+    General = {
+        UpgradesTo = 'brb1202',
+        CommandCaps = {
+            RULEUCC_Pause = true,
+        },
+    },
+}
+
+# HC Seraphim
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "xsb1102",
+
+    Categories = {
+        'SHOWQUEUE',
+    },
+    Display = {
+        Abilities = {
+            '<LOC ability_upgradable>Upgradeable',
+        },
+    },
+    Economy = {
+        BuildRate = 12,
+        BuildableCategory = {
+            'bsb1202',
+        },
+        RebuildBonusIds = {
+            'xsb1102',
+            'bsb1202',
+            'bsb1302',
+            'brpbt1peri',
+        },
+    },
+    General = {
+        UpgradesTo = 'bsb1202',
+        CommandCaps = {
+            RULEUCC_Pause = true,
+        },
+    },
+}

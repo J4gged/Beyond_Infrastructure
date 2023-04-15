@@ -1,0 +1,10 @@
+MeshBlueprint {
+    LODs = {
+        {
+            MeshName = '/mods/beyond_infrastructure/projectiles/CDFXenonitRocket01/CDFXenonitRocket01Unpacked01_lod0.scm',
+            AlbedoName = '/mods/beyond_infrastructure/projectiles/CDFXenonitRocket01/CDFXenonitRocket01_albedo.dds',
+                    ShaderName = 'TMeshAlpha',
+            LODCutoff = 150,
+        },
+    },
+}
